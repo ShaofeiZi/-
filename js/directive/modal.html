@@ -1,0 +1,31 @@
+ <!--模态框（Modal）-->
+<div class="modal fade in" id="{{modalId}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body" ng-bind="text">
+                <!--结束本轮游戏吗？-->
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary"  ng-click="backIndex()">
+                    确定
+                </button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">取消
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+
+<!--<div class="container">-->
+    <!--<h2>使用Bootstrap创建模态框</h2>-->
+    <!--<div id="example" class="modal hide fade in" style="display: none; ">-->
+        <!--<div class="modal-body">-->
+            <!--结束本轮游戏吗？-->
+        <!--</div>-->
+        <!--<div class="modal-footer">-->
+            <!--<a href="#" class="btn btn-success">确定</a>-->
+            <!--<a href="#" class="btn" data-dismiss="modal">取消</a>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<p><a data-toggle="modal" href="#example" class="btn btn-primary btn-large">发动演示模态框</a></p>-->
+<!--</div>-->
