@@ -7,4 +7,4 @@ angular.module("myApp",[])
                restrict:'E',
                templaterUrl:"js/directive/input-slider.html"
            }
-       })
+       });

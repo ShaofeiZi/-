@@ -8,7 +8,7 @@ angular.module("myApp").controller('viewCardCtrl', ['$scope', 'gameService','$st
     var StateValue = 0;
     var Card = "initial";
     var VersonId = $state.params.versionId;
-    vm.versionId=VersonId
+    vm.versionId=VersonId;
     gameService.getVersonList().then(function(res){
         vm.versionList=res.data.data[VersonId];
     });
